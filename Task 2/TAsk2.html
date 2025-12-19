@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Profile Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Live Profile Generator</h1>
+
+    <div class="wrapper">
+
+        <div class="form">
+            <input type="text" placeholder="Name" id="nameInput">
+            <input type="text" placeholder="Role" id="roleInput">
+            <textarea placeholder="Bio" id="bioInput"></textarea>
+            <input type="color" id="colorInput">
+            <button onclick="resetProfile()">Reset</button>
+        </div>
+
+        <div class="card">
+            <h2 id="nameText">Name</h2>
+            <h4 id="roleText">Role</h4>
+            <p id="bioText">bio</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
