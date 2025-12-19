@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Theme Controller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark medium grid">
+
+    <h1>Smart Theme Controller</h1>
+
+    <div class="controls">
+        <button onclick="setTheme('light')">Light</button>
+        <button onclick="setTheme('dark')">Dark</button>
+
+        <button onclick="setFont('small')">Small</button>
+        <button onclick="setFont('medium')">Medium</button>
+        <button onclick="setFont('large')">Large</button>
+
+        <button onclick="setLayout('list')">List</button>
+        <button onclick="setLayout('grid')">Grid</button>
+    </div>
+
+    <div class="container">
+        <div class="card">Card One</div>
+        <div class="card">Card Two</div>
+        <div class="card">Card Three</div>
+        <div class="card">Card Four</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
