@@ -1,0 +1,16 @@
+body, html{
+ margin : 0;
+ padding: 0;
+}
+
+.box{
+    width: 30px;
+    height: 80px;
+    background-color: aqua;
+    
+
+}
+
+.button{
+    width: 120px;
+}
